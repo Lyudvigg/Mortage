@@ -1,0 +1,1230 @@
+@import "font.css";
+/*-====================-global-style-for-ol-browsers-====================*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+button {
+    background-color: transparent;
+}
+
+ol, ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    outline: none!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    box-sizing: border-box;
+}
+
+button, a {
+    cursor: pointer;
+    border: 0;
+    display: inline-block;
+    transition: .3s;
+}
+
+input {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}
+
+a {
+    text-decoration: none!important;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+button, a {
+    cursor: pointer;
+    text-decoration: none!important;
+    border: 0;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-right {
+    max-width: 1145px;
+    margin-left: 295px;
+}
+
+body {
+    font-family: 'Roboto_Regular';
+}
+
+/*=========Scroll-stlye=========*/
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #63C74A;
+    border-radius: 20px;
+}
+
+/*====================Header======================*/
+
+.header-block {
+    min-height: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    position: relative;
+    z-index: 2;
+    background: #fff;
+}
+
+.header_item_location_row {
+    font-size: 16px;
+    color: #000;
+}
+
+.header_item_location_row a {
+    display: flex;
+    align-items: center;
+}
+
+.header_item_location_row img {
+    margin-right: 16px;
+}
+
+.header-contact ul li {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 13px;
+}
+
+.header-contact ul li:last-child {
+    margin-bottom: 0;
+}
+
+.header-contact li span {
+    color: #63C74A;
+}
+
+/*=========================header-menu==========================*/
+
+.menu-fixed ul li+li {
+    margin-top: 25px;
+}
+
+.menu-fixed ul li a {
+    font-size: 18px;
+    color: #000;
+}
+
+.menu-fixed ul li a {
+    border-bottom: 1px solid transparent;
+    padding-bottom: 5px;
+}
+
+.menu-fixed ul li a:hover {
+    border-bottom: 1px solid #000;
+}
+
+.header-menu_bg-block {
+    background-image: url(../img/general/header-bg.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1145px;
+    height: 738px;
+}
+
+.menu-fixed ul {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 15px 50px;
+}
+
+.menu-fixed {
+    width: 295px;
+    background: #F2F2F2;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.closebtn {
+    margin-left: auto;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #2EB12E;
+}
+
+.toggle {
+    font-size: 35px;
+    color: #2EB12E;
+    cursor: pointer;
+}
+
+.always_is {
+    font-family: 'Montserrat_SemiBold';
+    font-size: 64px;
+    color: #fff;
+}
+
+.solution {
+    font-family: 'Montserrat_ExtraBold';
+    font-size: 96px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 35px;
+    width: 249px;
+}
+
+.header-menu_bg-block_content_description {
+    font-family: 'Montserrat_Medium';
+    font-size: 24px;
+    color: #FFFEFE;
+    margin-top: 40px;
+}
+
+.header-menu_bg-block_content {
+    padding-top: 226px;
+    padding-left: 76px;
+}
+
+.menu-active {
+    border-bottom: 1px solid #000 !important;
+}
+
+/*====== I I P O T E K  S E C T I O N    S T A R T ======*/
+
+.hipotek-container {
+    max-width: 1145px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.hipoteq-blocks {
+    width: 100%;
+    padding-top: 222px;
+}
+
+.hipoteks {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 190px;
+}
+
+.hipotek-info-blok {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    max-width: 350px;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.hipotek-img {
+    max-width: 630px;
+}
+
+.hipotek-info-tittle {
+    font-family: 'Roboto_Regular';
+    font-size: 36px;
+    color: #3A3939;
+}
+
+.hipotek-information {
+    font-family: 'Roboto_Regular';
+    line-height: 26px;
+    font-size: 18px;
+    color: #454545;
+}
+
+.main-page-button {
+    font-family: 'Roboto_Regular';
+    max-width: 322px;
+    height: 53px;
+    background-color: #2EB12E;
+    width: 100%;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 1px solid #2EB12E;
+    color: white;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.main-page-button:hover {
+    color: #2EB12E;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.hipotek-information {
+    margin: 47px 0;
+}
+
+.aplicar-btn {
+    width: 100%;
+}
+
+.aplicar-btn button {
+    font-family: 'Roboto_Regular';
+    max-width: 322px;
+    height: 53px;
+    background-color: #2EB12E;
+    width: 100%;
+    font-size: 24px;
+    border-radius: 10px;
+    border: 1px solid #2EB12E;
+    color: white;
+    transition: 0.3s;
+}
+
+.aplicar-btn button:hover {
+    color: #2EB12E;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.hipoteq-blocks-hidden {
+    display: none;
+}
+
+/*====== I I P O T  E K   S E C T I O N    E N D ======*/
+
+/*====== I I P O T  E K   D E C S T O P   S E C T I O N    S T A R T ======*/
+
+.ipotek-page, .subsidies, .insurance, .partners, .bankruptcy, .legal-services, .refinancing, .auto-loans {
+    max-width: 1145px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.our-advantages-container, .subsidies-container {
+    margin-top: 120px;
+}
+
+.our-advantages-tittle, .subsidies-tittle {
+    text-align: center;
+    font-family: 'Roboto_Regular';
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    color: #3A3939;
+    margin-bottom: 73px;
+    padding: 0 15px;
+}
+
+.our-advantages-components, .subsidies-components {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.our-advantages-block {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px 95px 25px;
+}
+
+.our-advantages-img {
+    border: 2px solid #2EB12E;
+    border-radius: 50%;
+    width: 102px;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.our-advantages-about, .subsidies-about {
+    margin-top: 35px;
+    font-family: 'Roboto_Regular';
+    font-size: 16px;
+    text-align: center;
+    color: #3A3939;
+}
+
+/*====== I I P O T  E K   D E C S T O P   S E C T I O N    E N D ======*/
+
+/*====== I I P O T  E K  S U B S I D I E S   S E C T I O N    S T A R T ======*/
+
+.subsidies-numbers {
+    width: 109px;
+    height: 109px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    ;
+}
+
+.subsidies-block {
+    counter-increment: li;
+}
+
+.subsidies-numbers:before {
+    content: counter(li);
+    font-family: 'Roboto_Regular';
+    font-weight: 500;
+    font-size: 96px;
+    letter-spacing: 0.04em;
+    color: #32A832;
+    display: flex;
+    margin-left: 4px;
+    justify-content: center;
+}
+
+.subsidies .send-form .aplicar-btn {
+    margin-top: 20px;
+}
+
+.subsidies-block {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 25px 95px 25px;
+}
+
+.subsidies .send-form {
+    padding: 60px 15px 155px 15px;
+}
+
+.subsidies .send-form .aplicar-btn {
+    text-align: center;
+}
+
+/*====== I I P O T  E K   S U B S I D I E S   S E C T I O N    E N D======*/
+
+/*====== I I P O T  E K
+           I N S U R A N C E  ,
+           P A R T N E R S ,
+           B A N K R U P T C Y,
+           L E G A L  S E R V I C E S,
+           R E F I N A N C I N G
+S E C T I O N    S T A R T======*/
+
+.insurance .send-form {
+    padding: 150px 15px 207px 15px;
+}
+
+.insurance .send-form .aplicar-btn, .partners .send-form .aplicar-btn, .bankruptcy .send-form .aplicar-btn, .legal-services .send-form .aplicar-btn, .refinancing .send-form .aplicar-btn, .auto-loans .send-form .aplicar-btn {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.partners .send-form, .bankruptcy .send-form, .legal-services .send-form, .refinancing .send-form, .auto-loans .send-form {
+    padding: 82px 15px 142px 15px;
+}
+
+.legal-services .send-form {
+    padding: 166px 15px 250px 15px;
+}
+
+.partners-tittle, .partners .partners-tittle {
+    font-family: 'Roboto_Regular';
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    padding-bottom: 58px;
+    color: #908E8E;
+    text-align: center;
+}
+
+.help-layer-tittle {
+    font-family: 'Roboto_Regular';
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    color: #3A3939;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 64px;
+}
+
+.help-lawyer .subsidies-components .subsidies-block {
+    width: 281px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.help-lawyer .subsidies-components .subsidies-block .subsidies-numbers {
+    position: relative;
+}
+
+.help-lawyer .subsidies-components .subsidies-block .subsidies-numbers:after {
+    content: url("../img/Vector.png");
+    position: absolute;
+    height: 43px;
+    width: 23px;
+    top: 50%;
+    right: -100%;
+    transform: translateY(-50%);
+}
+
+.help-lawyer .subsidies-components .subsidies-block:last-child .subsidies-numbers:after {
+    content: '';
+}
+
+.help-lawyer .subsidies-components .subsidies-block .subsidies-about {
+    max-width: 200px;
+}
+
+.refinancing .help-lawyer .subsidies-components .subsidies-block, .auto-loans .help-lawyer .subsidies-components .subsidies-block {
+    margin: 0;
+    width: 247px;
+}
+
+.refinancing .help-lawyer .subsidies-components .subsidies-block .subsidies-numbers:after, .auto-loans .help-lawyer .subsidies-components .subsidies-block .subsidies-numbers:after {
+    right: -75%;
+}
+
+.refinancing .help-lawyer .subsidies-components, .auto-loans .help-lawyer .subsidies-components {
+    padding: 0 2.5px;
+}
+
+/*====== I I P O T  E K
+           I N S U R A N C E  ,
+           P A R T N E R S ,
+           B A N K R U P T C Y,
+           L E G A L  S E R V I C E S,
+           R E F I N A N C I N G
+S E C T I O N    E N D======*/
+
+/*====== F O O T E R   S E C T I O N    S T A R T ======*/
+
+.footer-bg {
+    background-color: #2EB12E;
+}
+
+.hipotek-footer {
+    max-width: 1145px;
+    padding: 95px 84px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hipotek-map {
+    width: 100%;
+    max-width: 680px;
+    height: 424px;
+}
+
+.hipotek-map iframe {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.hipotek-contact-blok {
+    max-width: 220px;
+    padding: 25px 15px;
+    width: 100%;
+}
+
+.hipote-phone ul li a {
+    position: relative;
+    font-family: 'Roboto_Regular';
+    padding: 2px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.hipote-phone ul li a:before, .hipotek-email a:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1px;
+    background-color: #28981B;
+    transition: 0.3s;
+}
+
+.hipote-phone ul li a:hover:before, .hipotek-email a:hover:before {
+    width: 100%;
+    transition: 0.3s;
+}
+
+.hipote-phone ul li {
+    margin-bottom: 13px;
+}
+
+.hipotek-addres {
+    margin: 35px 0;
+    font-family: 'Roboto_Regular';
+    line-height: 26px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.hipotek-email a {
+    position: relative;
+    font-family: 'Roboto_Regular';
+    line-height: 26px;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+/*====== F O O T E R   S E C T I O N    E N D ======*/
+
+/*====== M O D A L   S E C T I O N  S T A R T*/
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 999;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    -webkit-animation-name: fadeIn;
+    /* Fade in the background */
+    -webkit-animation-duration: 0.4s;
+    animation-name: fadeIn;
+    animation-duration: 0.4s
+}
+
+/* Modal Content */
+
+.modal-content {
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    position: fixed;
+    background-color: #fefefe;
+    max-width: 615px;
+    border-radius: 10px;
+    width: 100%;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+}
+
+/* The Close Button */
+
+.close {
+    right: 35px;
+    top: 35px;
+    position: absolute;
+    color: black;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Add Animation */
+
+@-webkit-keyframes slideIn {
+    from {
+        top: -1000px;
+        opacity: 0
+    }
+    to {
+        top: 50px;
+        opacity: 1
+    }
+}
+
+@keyframes slideIn {
+    from {
+        top: -1000px;
+        opacity: 0
+    }
+    to {
+        top: 50px;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.send-form {
+    padding-top: 95px;
+    margin: 0 auto;
+    position: relative;
+    max-width: 567px;
+    width: 100%;
+}
+
+.form-container {
+    max-width: 435px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.send-form input::placeholder {
+    font-family: 'Roboto_Regular';
+}
+
+.send-form input {
+    font-family: 'Roboto_Regular';
+    width: 100%;
+    height: 39px;
+    border: 2px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.form-title {
+    font-family: 'Roboto_Regular';
+    font-size: 24px;
+    letter-spacing: 0.04em;
+    color: #3A3939;
+    text-align: center;
+    margin-bottom: 66px;
+}
+
+.form-inp span {
+    display: block;
+    margin-bottom: 15px;
+    font-family: 'Roboto_Regular';
+    font-size: 18px;
+    letter-spacing: 0.04em;
+    color: #3A3939;
+}
+
+.form-btn {
+    margin-top: 27px;
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+/*========================Ipotek========================*/
+
+/*================================Ipotek-Input-Range=================================*/
+
+.calculator-block-content {
+    padding: 30px 0;
+}
+
+.calculator-block {
+    margin-left: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price_range {
+    -webkit-appearance: none;
+    -moz-apperance: none;
+    border-radius: 6px;
+    height: 2px;
+    max-width: 95%;
+    left: 2%;
+    width: 100%;
+    position: absolute;
+    bottom: -4px;
+    background: #CBCBCB;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(#2EB12E), color-stop(#CBCBCB));
+}
+
+.price_range::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background-image: url(../img/general/ellipses.png);
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+}
+
+.input_range-block-content {
+    max-width: 658px;
+    height: 50px;
+    border: 2px solid #C4C4C4;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 0 28px;
+}
+
+.inp {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 0 28px;
+}
+
+.price span, .price {
+    font-size: 24px;
+    color: #3A3939;
+}
+
+.input_range-block {
+    margin-bottom: 35px;
+}
+
+.input_range-block:last-child {
+    margin-bottom: 0;
+}
+
+.input_range-block-title {
+    font-size: 18px;
+    color: #3A3939;
+    margin-bottom: 19px;
+}
+
+.input_range-block-title span {
+    color: #737373;
+}
+
+.calculator-block-right {
+    width: 288px;
+    border: 2px solid #BBBBBB;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.input_range-block-main {
+    max-width: 658px;
+    width: 100%;
+    margin-right: 38px;
+}
+
+.input_range-block-main-title {
+    font-size: 36px;
+    color: #3A3939;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.calculator-block-right-title {
+    font-size: 16px;
+    color: #8B8B8B;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+
+.calculator-block-right-main-price {
+    color: #2EB12E;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 5.5px;
+}
+
+.calculator-block-right-title-block {
+    border-bottom: 1px solid #D7D6D6;
+}
+
+.calculator-block-title {
+    font-size: 14px;
+    color: #3A3939;
+    margin: 17px 0;
+    text-align: center;
+}
+
+.more_banks {
+    display: flex;
+}
+
+.calculator-block-right-content-item-left {
+    border-right: 1px solid #C4C4C4;
+    text-align: center;
+    padding-right: 15px;
+    width: 50%;
+}
+
+.calculator-block-right-content-item {
+    text-align: center;
+    width: 50%;
+    padding-left: 15px;
+}
+
+.calculator-block-right-content-title {
+    font-size: 16px;
+    color: #8B8B8B;
+    margin-bottom: 5px;
+}
+
+.calculator-block-right-content-price {
+    font-size: 24px;
+    color: #737373;
+}
+
+.whit_me_content {
+    display: flex;
+}
+
+.whit_me-price {
+    font-size: 24px;
+    color: #2EB12E;
+}
+
+.with_me {
+    margin-bottom: 10px;
+}
+
+.input_range-block-main .aplicar-btn {
+    text-align: center;
+    margin-top: 75px;
+}
+
+.input_range-block-main-description {
+    font-size: 18px;
+    color: #8B8B8B;
+    margin-top: 49px;
+}
+
+/* colapse  ipotek*/
+
+.colapse-ipotek {
+    max-width: 930px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 260px;
+}
+
+.accordion {
+    width: 100%;
+    color: rgb(76, 86, 92);
+    background: #FFF;
+    border: 1px solid #D7D6D6;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.accordion .link {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto_Regular';
+    cursor: pointer;
+    padding: 28px 50px 28px 38px;
+    color: rgb(76, 86, 92);
+    font-size: 16px;
+    border-bottom: 1px solid #D7D6D6;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.submenu {
+    display: none;
+    font-size: 14px;
+    background-color: #F6F6F6;
+}
+
+.submenu li {
+    font-family: 'Roboto_Regular';
+    padding: 15px 50px 15px 45px;
+    color: black;
+    width: 100%;
+    border-bottom: 1px solid rgba(17, 17, 17, 0.051);
+    transition: 0.3s;
+}
+
+.submenu li a:hover {
+    color: #28981B;
+    transition: 0.3s;
+}
+
+.accordion ul li:first-child .open {
+    background-color: #28981B;
+    border-radius: 10px;
+    color: white;
+}
+
+.open {
+    background-color: #28981B;
+    color: white;
+}
+
+.open .link {
+    color: white;
+}
+
+.open .submenu {
+    background-color: #F6F6F6;
+}
+
+.link:after {
+    content: url("../img/Vector_bottom.png");
+    position: absolute;
+    text-align: center;
+    color: white;
+    right: 15px;
+    font-family: 'Roboto_Regular';
+    transition: 0.3s;
+}
+
+.open .link:after {
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+/*=============Ipotek-Header===============*/
+
+.calculator-header {
+    background-image: url(../img/ipotekPage/Header_bg.png);
+}
+
+.calculator-header .header-menu_bg-block_content {
+    padding-top: 92px;
+    padding-left: 51px;
+}
+
+.calculator-title {
+    font-family: 'Montserrat_Medium';
+    font-size: 48px;
+    color: #2F2E2E;
+    width: 70%;
+    margin-bottom: 94px;
+    line-height: 80px;
+}
+
+/*======================Avto-Page=======================*/
+
+.avto-header {
+    background-image: url(../img/Avto/Header-bg.png);
+}
+
+.avto-title {
+    font-size: 48px;
+    font-family: 'Montserrat_Medium';
+    color: #fff;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 40px;
+    line-height: 80px;
+}
+
+.avto-header .aplicar-btn .modal-ipotek {
+    margin: auto;
+    display: block;
+}
+
+/*======================Partners-Page=======================*/
+
+.Partners-header {
+    background-image: url(../img/partners/partners_bg.png);
+}
+
+.Partners-header .header-menu_bg-block_content {
+    padding-top: 109px;
+    padding-left: 79px;
+}
+
+.partners-header-title {
+    font-size: 48px;
+    font-family: 'Montserrat_Medium';
+    color: #fff;
+    width: 60%;
+    margin-bottom: 34px;
+    line-height: 80px;
+}
+
+/*=================Refinansing-page==========================*/
+
+.refinancing-header {
+    background-image: url(../img/Refinancing/Refinansing_bg.png);
+}
+
+.refinancing-header .header-menu_bg-block_content {
+    padding-top: 109px;
+    padding-left: 100px;
+}
+
+.refinancing-title {
+    font-size: 48px;
+    font-family: 'Montserrat_Medium';
+    color: #000000;
+    line-height: 80px;
+    width: 65%;
+    margin-bottom: 34px;
+}
+
+/*=============Bank-page==============*/
+
+.bank-header {
+    background-image: url(../img/bank/bank-bg.jpg);
+}
+
+.bank-title {
+    font-size: 48px;
+    font-family: 'Montserrat_Medium';
+    color: #fff;
+    line-height: 80px;
+    width: 75%;
+    margin-bottom: 34px;
+}
+
+.bank-header-content {
+    padding-left: 200px;
+}
+
+/*===========================Subsides-Page====================*/
+
+.subsidies-header {
+    background-image: url(../img/Subsides/Subsides-bg.jpg);
+}
+
+.subsidies-header .header-menu_bg-block_content {
+    padding-top: 138px;
+    padding-left: 146px;
+}
+
+.subsidies-title {
+    font-size: 48px;
+    font-family: 'Montserrat_Medium';
+    line-height: 80px;
+    margin-bottom: 81px;
+    color: #3A3939;
+    width: 75%;
+}
+
+/*======================Inshurance-page==============================*/
+
+.inshurance-header {
+    background-image: url(../img/Insurance/inshurance.jpg);
+}
+
+.inshurance-header .header-menu_bg-block_content {
+    padding-left: 75px;
+    padding-top: 126px;
+    ;
+}
+
+.inshurance-title {
+    font-size: 48px;
+    font-family: 'Montserrat_Medium';
+    line-height: 80px;
+    margin-bottom: 39px;
+    color: #3A3939;
+    width: 75%;
+}
+
+.inshuranc_header-description {
+    font-size: 18px;
+    font-family: 'Montserrat_Medium';
+    color: #3A3939;
+    margin-bottom: 43px;
+}
+
+/*=====================Legal===================*/
+
+.legal-header {
+    background-image: url(../img/Legal/leagl-bg.png);
+}
+
+.legal-header .header-menu_bg-block_content {
+    padding-top: 141px;
+    padding-left: 120px;
+}
+
+.legal-title {
+    font-size: 48px;
+    font-family: 'Montserrat_Medium';
+    line-height: 80px;
+    margin-bottom: 39px;
+    color: #fff;
+    width: 70%;
+}
+
+/*=====================Credit=====================*/
+
+.credit-header {
+    background-image: url(../img/credit/credit-bg.jpg);
+}
+
+.credit-title {
+    font-size: 48px;
+    font-family: 'Montserrat_Medium';
+    line-height: 80px;
+    margin-bottom: 39px;
+    color: #3A3939;
+    width: 65%;
+}
+
+.credit-header .header-menu_bg-block_content {
+    padding-left: 200px;
+}

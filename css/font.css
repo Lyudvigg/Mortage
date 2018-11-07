@@ -1,0 +1,78 @@
+/*====================Font-Roboto====================*/
+
+@font-face {
+    font-family: 'Roboto_Black';
+    src: url(../Font/Roboto/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_BlackItalic';
+    src: url(../Font/Roboto/Roboto-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_bold';
+    src: url(../Font/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_boldItalic';
+    src: url(../Font/Roboto/Roboto-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_italic';
+    src: url(../Font/Roboto/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_Light';
+    src: url(../Font/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_LightItalic';
+    src: url(../Font/Roboto/Roboto-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_Medium';
+    src: url(../Font/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_MediumItalic';
+    src: url(../Font/Roboto/Roboto-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_Regular';
+    src: url(../Font/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_Thin';
+    src: url(../Font/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto_ThinItalic';
+    src: url(../Font/Roboto/Roboto-ThinItalic.ttf);
+}
+
+/*===============Montserrat-Font===============*/
+
+@font-face {
+    font-family: 'Montserrat_SemiBold';
+    src: url(../Font/montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_ExtraBold';
+    src: url(../Font/montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat_Medium';
+    src: url(../Font/montserrat/Montserrat-Medium.ttf);
+}

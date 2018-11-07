@@ -1,0 +1,331 @@
+@media(min-width: 1200px) {
+    /*=========Ipotek=======*/
+    .calculator-block-right {
+        margin-right: 90px;
+    }
+}
+
+@media (max-width: 1200px) {
+    /*====Global====*/
+    .container {
+        max-width: 1170px;
+    }
+    /*hipotek section*/
+    .hipoteks {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+        flex-wrap: wrap-reverse;
+    }
+    .hipotek-info-blok {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .hipoteks:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+    /*=========Ipotek=======*/
+    .calculator-title {
+        width: 90%;
+    }
+    /*===============Partners-Page================*/
+    .partners-header-title {
+        width: 80%;
+    }
+    /*==================Refinansing-page=====================*/
+    .refinancing-title {
+        width: 80%;
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    /*====Header====*/
+    .header-block {
+        padding: 0 15px;
+    }
+    .always_is {
+        font-size: 30px;
+    }
+    .solution {
+        font-size: 50px;
+        width: 150px;
+    }
+    .header-menu_bg-block_content_description {
+        font-size: 20px;
+    }
+    /*=========Input-Range=========*/
+    .calculator-block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculator-block-right {
+        margin-top: 30px;
+    }
+    .input_range-block-main {
+        width: auto;
+    }
+    .input_range-block-main {
+        margin-right: 0;
+    }
+    /*hipotek section*/
+    .hipotek-info-blok {
+        max-width: 430px;
+    }
+    .hipotek-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 15px 0 15px;
+    }
+    .hipotek-contact-blok {
+        padding-bottom: 25px;
+        text-align: center;
+    }
+    /*legal services*/
+    .help-lawyer .subsidies-components .subsidies-block .subsidies-numbers:after {
+        display: none;
+    }
+    .help-lawyer .subsidies-components .subsidies-block {
+        padding: 20px 0;
+    }
+    .legal-services .send-form, .auto-loans .send-form {
+        padding: 60px 15px 35px 15px;
+    }
+    .help-layer-tittle {
+        padding-top: 60px;
+    }
+    /*refininancing & auto-loans*/
+    .refinancing .help-lawyer .subsidies-components .subsidies-block .subsidies-numbers:after, .auto-loans .help-lawyer .subsidies-components .subsidies-block .subsidies-numbers:after {
+        display: none;
+    }
+    /*============Avto-Page===========*/
+    .avto-title {
+        font-size: 40px;
+        width: 80%;
+    }
+    /*===============Partners-Page================*/
+    .partners-header-title {
+        font-size: 35px;
+    }
+    /*=================Bank==================*/
+    .bank-header-content {
+        padding-left: 50px;
+    }
+    .bank-title {
+        line-height: 40px;
+        font-size: 35px;
+        width: 85%;
+    }
+    /*====================Subsides===================*/
+    .subsidies-title {
+        font-size: 35px;
+        width: 85%;
+        line-height: 40px;
+        margin-bottom: 50px;
+    }
+    /*============Inshurance===============*/
+    .inshurance-title {
+        font-size: 35px;
+        line-height: 40px;
+        width: 90%;
+    }
+    /*=====================Legal===================*/
+    .legal-title {
+        font-size: 35px;
+        width: 90%;
+        line-height: 40px;
+    }
+    /*=============Credit===============*/
+    .credit-title {
+        font-size: 35px;
+        line-height: 40px;
+        width: 90%;
+    }
+    /*=============Header-menu===============*/
+    .Partners-header .header-menu_bg-block_content, .avto-header .header-menu_bg-block_content, .bank-header .header-menu_bg-block_content, .credit-header .header-menu_bg-block_content, .inshurance-header .header-menu_bg-block_content, .calculator-header .header-menu_bg-block_content, .legal-header .header-menu_bg-block_content, .Partners-header .header-menu_bg-block_content, .refinancing-header .header-menu_bg-block_content, .subsidies-header .header-menu_bg-block_content{
+        padding-top: 226px;
+        padding-left: 76px;
+    }
+     /*==================Refinansing-page=====================*/
+     .refinancing-title {
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 768px) {
+    /* ==========header ======*/
+    .menu-fixed .header_item, .header-block .header_item:last-child, .closebtn {
+        display: none;
+    }
+    .scroll_active .menu-fixed-ul {
+        margin-top: 135px;
+    }
+}
+
+@media (max-width: 768px) {
+    /*====Header====*/
+    .header-block .header_item:first-child, .header-block .header_item:last-child {
+        display: block;
+        margin-bottom: 0;
+    }
+    .header-block .header_item {
+        display: none;
+    }
+    .header-block {
+        min-height: 100px;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #mySidenav {
+        overflow-x: hidden;
+        height: 0;
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        padding: 0;
+        height: 0px;
+        transition: .5s;
+    }
+    #mySidenav ul {
+        padding: 0 20px;
+    }
+    .menu-fixed ul li {
+        margin-bottom: 15px;
+    }
+    .menu-fixed ul li:first-child {
+        margin-top: 15px;
+    }
+    /*====Global====*/
+    .container-right {
+        margin-left: 0;
+        width: 100%;
+        padding: 0 15px;
+    }
+    /*=========Input-Range=========*/
+    .calculator-block {
+        margin-left: 0;
+    }
+    .header-menu_bg-block {
+        background-position: right;
+    }
+    /*=========Ipotek=======*/
+    .calculator-title {
+        font-size: 30px;
+    }
+}
+
+@media(max-width: 576px) {
+    /*=============Header==========*/
+    .header-menu_bg-block_content {
+        padding: 130px 40px 0 40px !important;
+    }
+    .header-menu_bg-block {
+        height: 450px;
+    }
+    .solution {
+        font-size: 30px;
+        width: 100px;
+        margin-top: 15px;
+    }
+    .always_is {
+        font-size: 20px;
+    }
+    .header-menu_bg-block_content_description {
+        font-size: 16px;
+    }
+    /*hipotek section*/
+    .hipoteq-blocks {
+        padding-top: 60px;
+    }
+    .hipoteks {
+        margin-bottom: 50px;
+    }
+    .hipotek-info-tittle {
+        font-size: 25px;
+    }
+    .hipotek-information {
+        margin: 30px 0;
+    }
+    .hipotek-info-blok {
+        max-width: 300px;
+    }
+    .hipotek-addres {
+        margin: 25px 0;
+    }
+    .hipotek-map {
+        height: 250px;
+    }
+    /* hipotek decstop*/
+    .our-advantages-tittle, .subsidies-tittle {
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .our-advantages-block {
+        margin: 0 15px 30px 15px;
+    }
+    .our-advantages-container, .subsidies-container {
+        margin-top: 55px;
+    }
+    /* hipotek decstop*/
+    .subsidies-block, .our-advantages-block {
+        margin-bottom: 45px;
+    }
+    .subsidies .send-form {
+        padding-bottom: 55px;
+        padding-top: 25px;
+    }
+    /*insurance & partners & bankruptcy &refinancing */
+    .insurance .send-form, .partners .send-form, .bankruptcy .send-form, .refinancing .send-form, .auto-loans .send-form {
+        padding: 35px 15px;
+    }
+    /*=========Ipotek=======*/
+    .calculator-title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    /*============Avto-Page===========*/
+    .avto-title {
+        font-size: 30px;
+        width: 90%;
+        line-height: 40px;
+    }
+    /*===============Partners-Page================*/
+    .partners-header-title {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    /*==================Refinansing-page=====================*/
+    .refinancing-title {
+        width: 90%;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    /*=================Bank==================*/
+    .bank-title {
+        font-size: 25px;
+    }
+    /*====================Subsides===================*/
+    .subsidies-title {
+        font-size: 25px;
+        width: 85%;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    /*============Inshurance===============*/
+    .inshurance-title {
+        font-size: 25px;
+    }
+    /*=====================Legal===================*/
+    .legal-title {
+        font-size: 20px;
+        width: 90%;
+        line-height: 40px;
+    }
+    /*=============Credit===============*/
+    .credit-title {
+        font-size: 25px;
+    }
+}
